@@ -8,6 +8,7 @@
  * 
  * 
  */
+
  
 #ifndef __H_VM_LOG_H__
 #define	__H_VM_LOG_H__
@@ -19,7 +20,5 @@
 
 #define	VM_LOG_ENTER_FUNC
 #define	VM_LOG_LEAVE_FUNC
-
-
 
 #endif

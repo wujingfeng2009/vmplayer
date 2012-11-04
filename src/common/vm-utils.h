@@ -8,6 +8,7 @@
  * 
  * 
  */
+ 
  #ifndef    __H_VM_UTILS_H__
 #define	__H_VM_UTILS_H__
 
