@@ -8,14 +8,15 @@
  * 
  * 
  */
-#ifndef	__H_VM_PLAYER_API_H__
-#define	__H_VM_PLAYER_API_H__
+ 
+#ifndef	__H_VM_SOUND_RECORDER_API_H__
+#define	__H_VM_SOUND_RECORDER_API_H__
  
 #include	"vm-utils.h"
 
 
 typedef struct {
 	
-}vm_player_ops;
+}vm_sound_recorder_ops;
 
 #endif

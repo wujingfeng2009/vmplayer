@@ -12,8 +12,6 @@
  #ifndef    __H_VM_UTILS_H__
 #define	__H_VM_UTILS_H__
 
-#define	ASSERT()
-
 #define	VM_RETURN_VAL_IF_FAILED(expr, ret_val)
 #define	VM_RETURN_IF_FAILED(expr)
 
@@ -46,6 +44,9 @@ typedef	void*	vm_handle;
 
 #include <dlfcn.h>
 #include <pthread.h>
+#include <assert.h>
+
+#define	ASSERT()
 
 #define	DEFAULT_DL_OPEN_FLAG	RTLD_NOW
 vm_handle vm_dlopen(const vm_char *filename, vm_int flag)
